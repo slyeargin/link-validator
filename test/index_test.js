@@ -35,3 +35,86 @@ describe('.validSyntax', function() {
     done();
   });
 });
+
+// describe('.validResponse', function() {
+  // it('identifies a successful response from a URL', function(done){
+  //   var link = {};
+  //   link.url = "http://example.com";
+  //   link.validSyntax = true;
+  //   var result = index.validResponse(link);
+  //   expect(result).to.be.ok;
+  //   expect(result).to.be.an.object;
+  //   expect(result.url).to.equal(link.url);
+  //   expect(result.statusCode).to.equal("200");
+  //   done();
+  // });
+
+  // it('identifies an unsuccessful response from a URL', function(done){
+  //   var link = {};
+  //   link.url = "http://example.com/404";
+  //   link.validSyntax = true;
+  //   var result = index.validResponse(link);
+  //   expect(result).to.be.ok;
+  //   expect(result).to.be.an.object;
+  //   expect(result.url).to.equal(link.url);
+  //   expect(result.statusCode).to.equal("404");
+  //   done();
+  // });
+
+//   it('ignores a URL that is not syntactically-valid', function(done){
+//     var link = {};
+//     link.url = "foo://example.net";
+//     link.validSyntax = false;
+//     var result = index.validResponse(link);
+//     expect(result).to.be.ok;
+//     expect(result).to.be.an.object;
+//     expect(result.url).to.equal(link.url);
+//     expect(result.statusCode).to.equal(undefined);
+//     done();
+//   });
+// });
+
+// describe('.printAnalysis', function() {
+//   it('explains a successful response', function(done){
+//     var link = {};
+//     link.url = "http://example.com";
+//     link.validSyntax = true;
+//     link.statusCode = "200";
+//     let analysis = "Success: http://example.com";
+//     var result = index.printAnalysis(link);
+//     expect(result).to.be.ok;
+//     expect(result).to.be.an.object;
+//     expect(result.url).to.equal(link.url);
+//     expect(result.analysis).to.equal(analysis);
+//     done();
+//   });
+//
+//   it('explains an unsuccessful response, providing status code and message', function(done){
+//     var link = {};
+//     link.url = "http://example.com/404";
+//     link.validSyntax = true;
+//     link.statusCode = "404";
+//     link.statusMessage = "Not found.";
+//     let analysis = "Unsuccessful response: http://example.com/404. Status: 404, Not found.";
+//     var result = index.printAnalysis(link);
+//     expect(result).to.be.ok;
+//     expect(result).to.be.an.object;
+//     expect(result.url).to.equal(link.url);
+//     expect(result.analysis).to.equal(analysis);
+//     done();
+//   });
+//
+//   it('ignores a URL that is not syntactically-valid', function(done){
+//     var link = {};
+//     link.url = "foo://example.net";
+//     link.validSyntax = false;
+//     let analysis = "Invalid syntax: foo://example.net";
+//     var result = index.printAnalysis(link);
+//     expect(result).to.be.ok;
+//     expect(result).to.be.an.object;
+//     expect(result.url).to.equal(link.url);
+//     expect(result.statusCode).to.equal(undefined);
+//     expect(result.analysis).to.equal(analysis);
+//     done();
+//   });
+// });
