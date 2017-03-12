@@ -18,10 +18,8 @@ Should return:
 ```
 Invalid syntax: example.org
 Invalid syntax: foo://example.net
-Success: http://example.com
 Unsuccessful response: http://example.com/404. Status: 404, Not Found
 Unsuccessful response: https://api.github.com/user/emails. Status: 403, Forbidden
-Success: https://www.amazon.com/Active-Interest-Media-Yoga-Journal/dp/B002BFZ9MQ/
 Unsuccessful response: https://www.linkedin.com/in/samanthay/. Status: 999, Request denied
 ```
 

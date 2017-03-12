@@ -51,7 +51,7 @@ function printAnalysis(link) {
   } else if (successCodes.indexOf(link.statusCode) === -1){
     return console.log("Unsuccessful response: " + link.url + ". Status: " + link.statusCode + ", " + link.statusMessage);
   } else {
-    return console.log("Success: " + link.url);
+    return;
   }
 }
 
