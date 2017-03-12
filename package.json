@@ -4,16 +4,21 @@
   "description": "A link validation utility using Node.js in the command line.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha --timeout=2000"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/slyeargin/link-validator.git"
   },
   "author": "Samantha Yeargin",
-  "license": "ISC",
+  "license": "",
   "bugs": {
     "url": "https://github.com/slyeargin/link-validator/issues"
   },
-  "homepage": "https://github.com/slyeargin/link-validator#readme"
+  "homepage": "https://github.com/slyeargin/link-validator#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
 }
