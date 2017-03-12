@@ -61,3 +61,11 @@ module.exports = {
   validResponse: validResponse,
   printAnalysis: printAnalysis
 }
+
+/* Improvements:
+   - Could cache URLs marked with validSyntax = true and a successful response for a period of time, then query the cache before
+     making a request to valid URLs.
+   - Could be added as an Express route; instead of parsing args from the CLI, would parse req.body and return res object as JSON
+     to be used by a front-end application.
+   - Could use promise chaining to return values from validResponse() and printAnalysis() rather than solely console.logging them.
+*/

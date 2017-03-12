@@ -36,6 +36,9 @@ describe('.validSyntax', function() {
   });
 });
 
+/*  Improvements to testing: if able to implement promises + mapping + request,
+would test index.validResponse using sinon stubbing, and index.printAnalysis. */
+
 // describe('.validResponse', function() {
   // it('identifies a successful response from a URL', function(done){
   //   var link = {};
